@@ -1,0 +1,20 @@
+명령프롬프트 명령어
+cd                : change dir , dir 이동
+type             : 안에 내용보기
+javac  __.java  : class 파일을 생성 
+java __.class   :  class 파일 실행 
+del                : dir 삭제
+뱡향키 위 아래 : 이전 명령어
+
+javac/ java 의 스위치 명령어 
+	1. -d <디렉토리> 
+	2. -sourcepath <path> 
+	3. -cp <path>            ( classpath)
+
+	ex) 
+	컴파일 javac -d classes -sourcepath src src\Hello.java
+	실행 java -cp classes Hello
+
+
+클래스는 저장장치에 있음( 하드 디스크 ) ,틀 , 개념 , 사용불가 
+객체는 메모리에 있음 , 사용가능
